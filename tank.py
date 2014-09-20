@@ -56,7 +56,7 @@ class Tank(Entity):
 			self.angle += self.turnspeed
 			if self.speed < 0: self.angle -= self.turnspeed * 2
 			if self.speed == 0: self.speed = self.forward_speed
-		# trig gives us the correct position to draw the turret
+		# trig gives us the correct position to draw the tank given angle and speed
 		self.y += self.speed * math.sin(math.radians(self.angle + 270))
 		self.x -= self.speed * math.cos(math.radians(self.angle + 270))
 		# turret moves left and right with arrow keys
