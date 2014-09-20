@@ -34,7 +34,7 @@ def main():
 		update(entities) # update all entities
 		render(entities) # draw all entities
 
-		if(globals.inputs.isKeyDown("enter")): toggle_fullscreen() # space bar toggles fullscreen
+		if(globals.inputs.isKeyDown("enter")): toggle_fullscreen() # enter toggles fullscreen
 		if(globals.inputs.isKeyDown("escape")): loop = False # escape key exits game
 		if(globals.inputs.isQuitPressed()): loop = False # red 'x' button exits game
 
