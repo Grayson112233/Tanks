@@ -6,6 +6,8 @@ Tanks, a pygame by Grayson Pike, 2014
   - Fire gun with space bar
   - Exit game with escape
   
+* Requires Python 3 and pygame installation to run
+  
 Changelog:
 
   1.0:
